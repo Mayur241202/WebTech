@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Descendant Selector</title>
+        <link rel="stylesheet" href="06B_Descendant_Selector.css">
+    </head>
+    <body>
+        <h1>Descendant Selector</h1>
+
+        <p>We are able to select a particular element or elements even if they are in another element or elements. For example, if paragraph is written in a div tag then also we are able to access that paragraph by using descendant selector.</p>
+
+        <hr>
+
+        <p><b>Syntax :</b></p>
+
+        <p>div p ol li {<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Property : value; <br>}</p>
+
+        <p>Here we are accessing <b>list item</b> tags to apply CSS on it.</p>
+
+        <hr>
+
+        <h1>Example</h1>
+
+        <div>
+            <p>
+                <ul>
+                    <li>A</li>
+                    <li>B</li>
+                    <li>C</li>
+                </ul>
+            </p>
+        </div>
+
+        <p>This is not working as The p tag cannot contain block-level elements like ul. For this line to understand please see the html and css code.</p>
+
+        <hr>
+
+        <div>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ul>
+        </div>
+
+        <p>Here we exclude p tag which is not necessory as <b>div p ul li</b> is not valid in css. For this we use <b>div ul li</b> without excluding p tag.</p>
+    </body>
+</html>

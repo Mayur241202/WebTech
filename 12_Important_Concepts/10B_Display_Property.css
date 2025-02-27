@@ -1,0 +1,62 @@
+h2 {
+    display: inline;
+}
+
+span {
+    color: green;
+    height: 40px; /* Not applied */
+    width: 40px; /* Not applied */
+    margin: 50px; /* Applied Only left and right */
+    padding: 20px; /* Applied Only left and right */
+    background-color: aquamarine;
+}
+
+#div1 {
+    /* display: inline-block; */
+    color: green;
+    height: 40px;
+    width: 40px;
+    margin: 50px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+#div2 {
+    display: inline-block;
+    color: green;
+    height: 40px;
+    width: 40px;
+    margin: 50px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+#div3 {
+    display: inline-block;
+    color: green;
+    height: 40px;
+    width: 40px;
+    margin: 50px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+#div4 {
+    display: inline-block;
+    color: green;
+    height: 40px;
+    width: 40px;
+    margin: 50px;
+    padding: 20px;
+    background-color: aquamarine;
+}
+
+#div5 {
+    display: none;
+    color: green;
+    height: 40px;
+    width: 40px;
+    margin: 50px;
+    padding: 20px;
+    background-color: aquamarine;
+}

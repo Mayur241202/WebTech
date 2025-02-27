@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Child Combinator</title>
+        <link rel="stylesheet" href="08B_Child_Combinator.css">
+    </head>
+    <body>
+        <h1>Child Combinator</h1>
+
+        <p>It works like descendant selector but it is just apply to only immediate child of element or tag and not for grand child or others. This is access using > symbol in between parent and child elements or tags.</p>
+
+        <hr>
+
+        <p><b>Syntax :</b></p>
+
+        <p>div > p {<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;property : value; <br>}</p>
+
+        <hr>
+
+        <h1>Example</h1>
+
+        <div>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+            </ul>
+        </div>
+
+        <p>Here we apply <b>div > ul</b> or <b>div > ul > li</b> and thats why it is green but if we apply <b>div > li</b> It is not valid.</p>
+    </body>
+</html>

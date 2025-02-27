@@ -1,0 +1,11 @@
+h2::first-letter{
+    color: green;
+}
+
+p::first-line{
+    color: orange;
+}
+
+p::selection{
+    background-color: yellow;
+}

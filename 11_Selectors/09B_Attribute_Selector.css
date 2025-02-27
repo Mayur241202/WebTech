@@ -1,0 +1,9 @@
+p[type = "para"] {
+    color : green;
+}
+
+/* OR */
+
+p[type] {
+    color: green;
+}

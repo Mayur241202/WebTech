@@ -1,0 +1,23 @@
+#outer {
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    font-size: 10px;
+}
+
+#inner {
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 3em;
+    padding: 1em;
+}
+
+button {
+    border-radius: 15px;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 1em;
+}

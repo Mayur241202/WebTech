@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance</title>
+    <link rel="stylesheet" href="17B_Inheritance.css">
+</head>
+
+<body>
+    <h1>Inheritance</h1>
+
+    <p>Inheritance in CSS means that some properties of an ancestor element (parent, grandparent, etc.) automatically apply to its child elements unless overridden.</p>
+
+    <hr>
+
+    <h1>Example</h1>
+
+    <div>
+        <p>If you set a text color (color: red;) for a div, all text inside that div (like in p, span, etc.) will also
+            be red unless you override it.</p>
+    </div>
+
+    <p>The p inside the div will have red text without explicitly setting color: red; inside p.</p>
+
+    <hr>
+
+    <ul>
+        <li><strong>Inherited Properties:</strong>
+            <ul>
+                <li>color</li>
+                <li>font-family</li>
+                <li>visibility</li>
+                <li>cursor</li>
+            </ul>
+        </li>
+        <br>
+        <li><strong>Not Inherited (But Can Be):</strong>
+            <ul>
+                <li>border</li>
+                <li>margin</li>
+                <li>padding</li>
+                <li>background</li>
+                <li>width, height</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h1>Forcing Inheritance</h1>
+
+    <p>Use <b>inherit</b> to manually inherit a property :</p>
+
+    <h1>Example</h1>
+
+    <p>
+        <pre>
+            <code>
+            p {
+                color: inherit; /* Takes the color of the parent */
+            }
+            </code>
+        </pre>
+    </p>
+
+</body>
+
+</html>

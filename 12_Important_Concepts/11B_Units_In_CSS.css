@@ -1,0 +1,18 @@
+h2 {
+    width: 50%;
+    background-color: aqua;
+}
+
+#outer {
+    height: 400px;
+    width: 300px;
+    background-color: antiquewhite;
+    margin: 50px;
+}
+
+#inner {
+    height: 50%;
+    width: 50%;
+    background-color: aquamarine;
+    margin: 10%;
+}

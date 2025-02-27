@@ -1,0 +1,31 @@
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+p:active{
+    color: pink
+    ;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* Following not worked */
+
+/* label:checked{
+    color: red;
+    font-weight: bolf;
+} */
+
+/* even heading color aqua */
+h2:nth-of-type(2n){
+    color: aqua;
+}
+
+/* odd heading color red */
+h2:nth-of-type(2n + 1){
+    color: red;
+}

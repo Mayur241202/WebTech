@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internal CSS</title>
+
+        <style>
+            h2{
+                color: red;
+                background-color: skyblue;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Why Not Inline CSS</h1>
+
+        <p>We do not use inline CSS as if we want same property apply to another element then we have again write same code for that element.</p>
+
+        <p><b>Ex. :</b></p>
+
+        <h1 style="color: red;">Apna College</h1>
+
+        <h1 style="color: red;">Mayur Kapgate</h1>
+
+        <h1 style="color: red;">Hello World</h1>
+
+        <p>In above all the heading are h1 headings and we use style property to color them with red color. To apply this style we have to write <b>style="color: red;"</b> this code 3 times as headings are three which is time consuming. Therefore we do not use inline CSS most of the times.</p>
+
+        <hr>
+
+        <h1>Internal CSS</h1>
+
+        <p>Here style is added using the style element declared in the same document and mostly in head tag. Due to this we are able to style all elements with same code used for multiple times.</p>
+
+        <h2>Apna College</h2>
+
+        <h2>Mayur Kapgate</h2>
+
+        <h2>Hello World</h2>
+    </body>
+</html>

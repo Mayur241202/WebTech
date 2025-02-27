@@ -1,0 +1,17 @@
+h2{
+    /* For all h2 headings */
+    color: aqua;
+    background-color: red;
+}
+
+p{
+    /* For all paragraphs */
+    color: blue;
+    background-color: aqua;
+}
+
+button{
+    /* For all buttons */
+    color: blueviolet;
+    background-color: greenyellow;
+}

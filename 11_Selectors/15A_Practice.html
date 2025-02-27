@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice - Specificity</title>
+    <link rel="stylesheet" href="15B_Practice.css">
+</head>
+<body>
+    <h1>Practice - Specificity</h1>
+
+    <p><b>Q. 1 : </b>For the given HTML and CSS code what is color of h1 ?</p>
+    <p><img src="15A_img_1.png" alt="Que_1" width="300px"></p>
+
+    <p><b>ans. :</b> For this we have to calculate specificity.</p>
+
+    <p><b>h1</b> has specificity (0, 0, 1) as h1 is an element. <b>#greet</b> has specificity (1, 0, 0) as greet is an Id. <b>.myClass</b> has specificity (0, 1, 0) as myClass is a class. Therefore h1 has <b>yellow</b> color.</p>
+
+    <hr>
+
+    <p><b>Q. 2 :</b> For the given HTML and CSS code what is background-color of p ?</p>
+
+    <p><img src="15A_img_2.png" alt="Que_2" width="300px"></p>
+
+    <p><b>ans. :</b></p>
+
+    <p><b>div p</b> has specificity (0, 0, 2) as div and p are 2 elements. <b>.para</b> has specificity (0, 1, 0) as para is a class. <b>p</b> has specificity (0, 0, 1) as p is an element. Therefore p has background-color <b>blue</b>.</p>
+
+    <hr>
+
+    <p><b>Q. 3 :</b> For the given HTML and CSS code what is color of text "Hello world!" ?</p>
+
+    <p><img src="15A_img_3.png" alt="Que_3" width="300px"></p>
+
+    <p><b>ans. :</b></p>
+
+    <p><b>div.greetDiv .greet</b> has specificity (0, 2, 1) as div is an element, greetDiv and greet are two classes. <b>.greetDiv p.greet</b> has specificity (0, 2, 1) as p is an element, greetDiv and greet are two classes. <b>.greetDiv .greet</b> has specificity (0, 2, 0) as greetDiv and greet are two classes.</p>
+
+    <p>Here specificity of <b>div.greetDiv .greet</b> and <b>.greetDiv p.greet</b> are same and hence here we apply cascading. Therefore final answer is depend on <b>.greetDiv p.greet</b> as this will come after <b>div.greetDiv .greet</b>. Therefore "Hello World!" is in <b>blue</b> color.</p>
+
+</body>
+</html>

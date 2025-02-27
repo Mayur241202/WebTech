@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <link rel="stylesheet" href="14B_Specificity.css">
+</head>
+<body>
+    <h1>Specificity</h1>
+
+    <p>Specificity is an algorithm which calculates thwe weight that is applies to a given CSS declaration. It is calculate by number of id's at hundreds place, class + pseudo class + attributes at tens place, elements + pseudo elements at one's place specify in selector while writing code of styling.</p>
+
+    <p><b>(No. of Id's, No. of class + pseudo class + attribute, No. of elements + pseudo elements)</b></p>
+
+    <hr>
+
+    <h1>Example</h1>
+
+    <p>.myClass:hover {<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;property : value;<br>}</p>
+
+    <p>Here <b>.myClass:hover include </b>one class and one pseudo class, therefore its specificity is (0, 2, 0).</p>
+
+    <hr>
+
+    <p>h2 {<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;property : value;<br>}</p>
+
+    <p>Here h2 is an element and therefore its specificity is (0, 0, 1).</p>
+
+    <hr>
+
+    <p>If specificities are same for more than one codes of same elements then cascading is applied i.e. whichever is declared later will have highest priority.</p>
+
+    <hr>
+
+    <p><b>Note :</b> If we include <b>inline style</b> to element then inline style has highest priority than any other declarations.</p>
+
+    <p><b>Note : </b>inline > id > class > element</p>
+</body>
+</html>

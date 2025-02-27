@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adjacent Sibling Combinator</title>
+        <link rel="stylesheet" href="07B_Adjacent_Sibling_Combinator.css">
+    </head>
+    <body>
+        <h1>Adjacent Sibling Combinator</h1>
+
+        <p>This selects an elements which are coming just after the current tag/element. For example, Heading 3 that comes immediately after paragraph. We access that by using (+) symbol in between the elements. We are also able to use class and id in place of elements.</p>
+
+        <hr>
+
+        <p><b>Syntax :</b></p>
+
+        <p>p + h3 { <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; property : value; <br>}</p>
+
+        <hr>
+
+        <h1>Example</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores excepturi debitis porro nobis deleniti odit fuga esse repudiandae nam!</p>
+
+        <h3>Heading 3A</h3>
+        <h3>Heading 3B</h3>
+
+        <div><h3>Heading 3C</h3></div>
+
+        <hr>
+
+        <p>Here only 1st h3 heading has green color which is immediately comes after p. Same code is valid for following also.</p>
+
+        <hr>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur asperiores excepturi debitis porro nobis deleniti odit fuga esse repudiandae nam!</p>
+
+        <h3>Heading 3D</h3>
+    </body>
+</html>
