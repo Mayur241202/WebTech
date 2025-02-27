@@ -1,0 +1,41 @@
+#container1 {
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+}
+
+#container2 {
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+
+#container3 {
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#container4 {
+    height: 300px;
+    width: 600px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 80px 80px 80px;
+}
+
+
+.item {
+    height: 50px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}

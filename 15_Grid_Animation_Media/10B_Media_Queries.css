@@ -1,0 +1,62 @@
+#head1 {
+    background-color: yellow;
+    border: 2px solid black;
+
+
+}
+
+/* At exact width 400px*/
+@media (width: 400px) {
+    #head1 {
+        background-color: red;
+    }
+}
+
+#head2 {
+    background-color: yellow;
+    border: 2px solid black;
+
+
+}
+
+/* At greater than width 800px */
+@media (min-width: 800px) {
+    #head2 {
+        background-color: red;
+    }
+}
+
+/* At less than width 400px */
+@media (max-width: 400px) {
+    #head2 {
+        background-color: greenyellow;
+    }
+}
+
+#head3 {
+    background-color: yellow;
+    border: 2px solid black;
+
+
+}
+
+/* Red color between Range 400px to 800px */
+@media (min-width: 400px) and (max-width: 800px) {
+    #head3 {
+        background-color: red;
+    }
+}
+
+#head4 {
+    background-color: yellow;
+    border: 2px solid black;
+
+
+}
+
+/* Red color between Range 400px to 800px */
+@media (orientation: landscape) {
+    #head4 {
+        background-color: red;
+    }
+}

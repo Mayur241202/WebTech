@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="10B_Media_Queries.css">
+</head>
+<body>
+    <h1>Media Queries</h1>
+
+    <p>Help to create a responsive website.</p>
+
+    <hr>
+
+    <img src="10A_img_1.png" alt="img 1" width="570px">
+
+    <hr>
+
+    <h1>Example</h1>
+
+    <h2 id="head1">Media Queries Demo</h2>
+
+    <p>THis is apply when width is exact 400px</p>
+
+    <h1>Syntax</h1>
+
+    <pre>
+        <code>
+            /* At exact width 400px*/
+            @media (width: 400px) {
+                #head1 {
+                    background-color: red;
+                }
+            }
+        </code>
+    </pre>
+
+    <hr>
+
+    <img src="10A_img_2.png" alt="img 2" width="570px">
+
+    <hr>
+
+    <h1>Example</h1>
+
+    <h2 id="head2">Media Queries Demo</h2>
+
+    <p>This is individual and not a range i.e. when width is less than 400px then color is red and if width is greater than 800px then also color is red otherwise color is yellow.</p>
+
+    <h1>Syntax</h1>
+
+    <pre>
+        <code>
+            /* At greater than width 800px */
+            @media (min-width: 800px) {
+                #head2 {
+                    background-color: red;
+                }
+            }
+
+            /* At less than width 400px */
+            @media (max-width: 400px) {
+                #head2 {
+                    background-color: greenyellow;
+                }
+            }
+        </code>
+    </pre>
+
+    <hr>
+
+    <img src="10A_img_3.png" alt="img 3" width="570px">
+
+    <hr>
+
+    <h1>Example</h1>
+
+    <h2 id="head3">Media Queries Demo</h2>
+
+    <p>This is a range i.e. when width is in the range of 400px to 800px then color is red otherwise color is yellow.</p>
+
+    <h1>Syntax</h1>
+
+    <pre>
+        <code>
+            /* Red color between Range 400px to 800px */
+            @media (min-width: 400px) and (max-width: 800px) {
+                #head3 {
+                    background-color: red;
+                }
+            }
+        </code>
+    </pre>
+
+    <hr>
+
+    <img src="10A_img_4.png" alt="img 4" width="570px">
+
+    <hr>
+
+    <h1>Example</h1>
+
+    <h2 id="head4">Media Queries Demo</h2>
+
+    <p>Orientation means rotating the phone and it has two types landscape and portrait. It changes color to red when phone is landscape. and in portrait it changes to yellow.</p>
+
+    <h1>Syntax</h1>
+
+    <pre>
+        <code>
+            /* Red color between Range 400px to 800px */
+            @media (min-width: 400px) and (max-width: 800px) {
+                #head3 {
+                    background-color: red;
+                }
+            }
+        </code>
+    </pre>
+</body>
+</html>
