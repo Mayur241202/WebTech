@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Radio Buttons</title>
+    </head>
+    <body>
+        <h1>Radio Buttons</h1>
+
+        <p>Radio buttons are used to choose only one from several options.</p>
+
+        <form action="/server">
+
+            <div>
+                Choose your Gender :
+
+                <input type="radio" name="gen" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gen" id="fe">
+                <label for="fe">Female</label>
+
+                <input type="radio" name="gen" id="oth">
+                <label for="oth">Others</label>
+            </div>
+
+            <button>Submit</button>
+        </form>
+
+        <p><b>url</b> and <b>value</b> things are similar to checkbox.</p>
+        <p>We have to specify <b>name</b> attribute value same for all buttons. Otherwise we are able to tick all options given.</p>
+
+        <hr>
+
+        <form action="/server">
+
+            <div>
+                Choose your Gender :
+
+                <input type="radio" name="gen1" id="male1">
+                <label for="male1">Male</label>
+
+                <input type="radio" name="gen2" id="fe1">
+                <label for="fe1">Female</label>
+
+                <input type="radio" name="gen3" id="oth1">
+                <label for="oth1">Others</label>
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

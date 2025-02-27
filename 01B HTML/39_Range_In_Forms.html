@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Range In HTML Forms</title>
+    </head>
+    <body>
+        <h1>Range In HTML Forms</h1>
+
+        <form action="/server">
+            <div>
+                <label for="vol">Select your volume level : </label>
+                <input type="range" id="vol" name="vol">
+                <button>Submit</button>
+            </div>
+        </form>
+
+        <p>Gives url as <b>http://127.0.0.1:3000/server?vol=50</b> if we select volume value 50.</p>
+
+        <hr>
+
+        <form action="/server">
+            <div>
+                <label for="vol">Select your volume level : </label>
+                <input type="range" id="vol" name="vol" min="10" max="90">
+                <button>Submit</button>
+            </div>
+        </form>
+
+        <p>Here min volume value is 10 and max volume value is 90.</p>
+
+        <hr>
+
+        <form action="/server">
+            <div>
+                <label for="vol">Select your volume level : </label>
+                <input type="range" id="vol" name="vol" min="10" max="90" step="10">
+                <button>Submit</button>
+            </div>
+        </form>
+
+        <p>Due to step we select volumes in multiple of 10 as we define step as 10.</p>
+
+        <form action="/server">
+            <div>
+                <label for="vol">Select your volume level : </label>
+                <input type="range" id="vol" name="vol" min="10" max="90" step="10" value="70">
+                <button>Submit</button>
+            </div>
+        </form>
+
+        <p>Due to value by default volume is 70 as we pass value as 70 in code.</p>
+    </body>
+</html>

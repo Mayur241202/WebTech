@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Text Area</title>
+    </head>
+    <body>
+        <h1>Text Area In HTML</h1>
+
+        <p>By default size : 2 rows and 10 colummns.</p>
+
+        <form action="/server">
+            <div>
+                <label for="feedback">Enter your feedback : </label>
+                <textarea name="feedback" id="feedback" placeholder="Enter your feedback here"></textarea>
+            </div>
+        </form>
+
+        <hr>
+
+        <p>We can make text area large by using rows and cols attributes.</p>
+
+        <form action="/server">
+            <div>
+                <label for="feedback">Enter your feedback : </label>
+                <textarea name="feedback" id="feedback" placeholder="Enter your feedback here" rows="10" cols="50"></textarea>
+            </div>
+
+            <button>Submit</button>
+        </form>
+
+        <p>After submitting form by giving feedback as thank you then url will as <b>http://127.0.0.1:3000/server?feedback=Thank+you</b></p>
+    </body>
+</html>

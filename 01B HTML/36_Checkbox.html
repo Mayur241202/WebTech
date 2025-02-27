@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Checkbox In HTML Forms</title>
+    </head>
+    <body>
+        <h1>Checkbox</h1>
+
+        <p>first label(I am 18+) then input(checkbox)</p>
+
+        <form action="/server">
+            <label for="age"> I am 18+</label>
+            <input type="checkbox" name="age" id="age">
+
+            <button>Submit</button>
+        </form>
+
+        <hr>
+
+        <p>first input(checkbox) then label(I am 18+)</p>
+
+        <form action="/server">
+            
+            <input type="checkbox" name="age" id="age">
+            <label for="age"> I am 18+</label>
+
+            <button>Submit</button>
+        </form>
+
+        <p>If we click on Submit button and if checkbox is ticked then url shows <b>http://127.0.0.1:3000/server?age=on</b></p>
+
+        <p>If we click on Submit button and if checkbox is not ticked then url shows <b>http://127.0.0.1:3000/server?</b></p>
+
+        <hr>
+
+        <form action="/server">
+            
+            <input type="checkbox" name="age" id="age" checked>
+            <label for="age"> I am 18+</label>
+
+            <button>Submit</button>
+        </form>
+
+        <p>If we write checked in <b>input</b> element then checkbox is already ticked.</p>
+
+        <hr>
+
+        <p>Now we will group some checkboxes :</p>
+
+        <form action="/server">
+
+            <div>
+                Tick your subjects :
+
+                <input type="checkbox" name="sub" id="math">
+                <label for="math">Maths</label>
+
+                <input type="checkbox" name="sub" id="sci">
+                <label for="sci">Science</label>
+
+                <input type="checkbox" name="sub" id="eng">
+                <label for="eng">English</label>
+            </div>
+
+            <button>Submit</button>
+        </form>
+
+        <p>Now if click on <b>Submit</b> button by ticking only Maths then url is like <b>http://127.0.0.1:3000/server?sub=on</b> and this is true for all others.</p>
+
+        <p>Now if we click on <b>Submit</b> button by ticking any two options then url is like <b>http://127.0.0.1:3000/server?sub=on&sub=on</b> and this is true for all others possible choices of two.</p>
+
+        <p>And so on.</p>
+
+        <hr>
+
+        <p>Now if we want url shows which options we choose then add value attribute in input element.</p>
+
+        <form action="/server">
+
+            <div>
+                Tick your subjects :
+
+                <input type="checkbox" name="sub" id="math" value="math">
+                <label for="math">Maths</label>
+
+                <input type="checkbox" name="sub" id="sci" value="sci">
+                <label for="sci">Science</label>
+
+                <input type="checkbox" name="sub" id="eng" value="eng">
+                <label for="eng">English</label>
+            </div>
+
+            <button>Submit</button>
+        </form>
+
+        <p>Now if click on <b>Submit</b> button by ticking only Maths then url is like <b>http://127.0.0.1:3000/server?sub=math</b> and this is true for all others.</p>
+
+        <p>Now if we click on <b>Submit</b> button by ticking Maths and Science then url is like <b>http://127.0.0.1:3000/server?sub=math&sub=sci</b> and this is true for all others possible choices of two.</p>
+
+        <p>And so on.</p>
+    </body>
+</html>

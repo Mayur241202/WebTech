@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Name Attribute In HTML Forms</title>
+    </head>
+    <body>
+        <h1>Name Attribute In HTML Forms</h1>
+
+        <p>Name of the form control. Submitted with the form as a part of a name/value pair.</p>
+
+        <form action="/action">
+
+            <div>
+                <label for="username">Enter your username : </label>
+                <input type="text" placeholder="enter username" name="user" id="username">
+            </div>
+            
+            <div>
+                <label for="password">Enter your password : </label>
+                <input type="password" placeholder="enter password" name="pass" id="password">
+            </div>
+
+            <button>Submit</button>
+        </form>
+
+        <p>After entering username and password, if you see in url after submitting form then you will get <b>http://127.0.0.1:3000/action?user=abc&pass=123</b> where username and password is written. Here name is user or pass and value is abc or 123 repectively. That is they are in name/value form.</p>
+
+        <hr>
+
+        <p>Following form will get you to the main server of youtube because name attribute of youtube is <b>search_query</b> which i write in my code. But you have to click on submit button compulsorily.</p>
+
+        <form action="https://www.youtube.com/results">
+
+            <div>
+                <label for="usernamey1">Enter your username : </label>
+                <input type="text" placeholder="enter username" name="search_query" id="usernamey1">
+            </div>
+
+            <button>Submit</button>
+        </form>
+
+        <hr>
+
+        <p>But following form will not get you to the main server of youtube because name attribute of youtube is <b>search_query</b> which i am not write that in my code. But you have to click on submit button compulsorily.</p>
+
+
+        <form action="https://www.youtube.com/results">
+            
+            <div>
+                <label for="usernamey2">Enter your username : </label>
+                <input type="text" placeholder="enter username" name="search" id="usernamey2">
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

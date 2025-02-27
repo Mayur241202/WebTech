@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Button</title>
+    </head>
+    <body>
+        <h1>Form Button</h1>
+
+        <p>If we declare <b>button</b> inside form tag then all button is for submitting the form and if we declre <b>button</b> outside form tag then we have to declare what that button do.</p>
+
+        <button>hello</button>
+        <form action="/action">
+            <div>
+                <label for="username">Username : </label>
+                <input type="text" placeholder="enter username" id="username">
+            </div>
+
+            <div>
+                <label for="password">Password : </label>
+                <input type="password" placeholder="enter password" id="password">
+            </div>
+
+            <div>
+                <label for="age">Enter Age : </label>
+                <input type="number" placeholder="enter age" id="age">
+            </div>
+
+            <button>Submit</button>
+        </form>
+
+        <hr>
+
+        <h1><b>type</b> attribute in button</h1>
+
+        <form action="/action">
+            <div>
+                <label for="username">Username : </label>
+                <input type="text" placeholder="enter username" id="username">
+            </div>
+
+            <div>
+                <label for="password">Password : </label>
+                <input type="password" placeholder="enter password" id="password">
+            </div>
+
+            <div>
+                <label for="age">Enter Age : </label>
+                <input type="number" placeholder="enter age" id="age">
+            </div>
+
+            <button type="submit">Submit</button>
+
+            <p><b>Submit</b> button will submit the form.</p>
+
+            <button type="button">Simple Button</button>
+
+            <p><b>Simple Button</b> is just the button.</p>
+
+            <button type="reset">Reset</button>
+
+            <p><b>Reset</b> button is used for reset the information.</p>
+
+            <hr>
+
+            <h1>Button Using Input Element</h1>
+
+            <input type="button" value="click me">
+
+            <input type="submit">
+
+            <input type="submit" value="click me 2">
+        </form>
+    </body>
+</html>

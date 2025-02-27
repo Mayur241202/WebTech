@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dropdown In HTML Forms</title>
+    </head>
+    <body>
+        <h1>Dropdown In HTML Forms</h1>
+
+        <form action="/server">
+            <div>
+                <label for="profession">Choose your profession : </label>
+                <select name="prof" id="profession">
+                    <option value="stu">Student</option>
+                    <option value="dev">Developer</option>
+                </select>
+            </div>
+        </form>
+
+        <hr>
+
+        <p>in below dropdown menu i add extra option called <b>Select your option</b></p>
+
+        <form action="/server">
+            <div>
+                <label for="profession">Choose your profession : </label>
+                <select name="prof" id="profession">
+                    <option value="syo">Select your option</option>
+                    <option value="stu">Student</option>
+                    <option value="dev">Developer</option>
+                </select>
+            </div>
+        </form>
+
+        <hr>
+
+        <p>in below dropdown menu i use <b>selected</b> to select a choice developer by default.</p>
+
+        <form action="/server">
+            <div>
+                <label for="profession">Choose your profession : </label>
+                <select name="prof" id="profession">
+                    <option value="syo">Select your option</option>
+                    <option value="stu">Student</option>
+                    <option value="dev" selected>Developer</option>
+                </select>
+            </div>
+        </form>
+    </body>
+</html>

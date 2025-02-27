@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Colspan and Rowspan Attributes</title>
+    </head>
+    <body>
+        <h1>Colspan & Rowspan</h1>
+
+        <p>1) <b>colspan </b>is used for writing a header or data in two columns by merging that two columns.</p>
+        <p>2) <b>rowspan </b>is used for writing a header or data in two rows by merging that two rows.</p>
+
+        <h2>Example : Without Using colspan & rowspan</h2>
+
+        <table border="black">
+            <caption>Food Menu</caption>
+
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                </tr>
+
+                <tr>
+                    <th>INR</th>
+                    <th>USD</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Frooti</td>
+                    <td>20</td>
+                    <td>0.28</td>
+                </tr>
+
+                <tr>
+                    <td>Samosa</td>
+                    <td>12</td>
+                    <td>0.17</td>
+                </tr>
+                <tr>
+                    <td>Chips</td>
+                    <td>10</td>
+                    <td>0.14</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Example : Using colspan & rowspan</h2>
+
+        <table border="black">
+            <caption>Food Menu</caption>
+
+            <thead>
+                <tr>
+                    <th rowspan="2">Item</th>
+                    <th colspan="2">Price</th>
+                </tr>
+
+                <tr>
+                    <th>INR</th>
+                    <th>USD</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Frooti</td>
+                    <td>20</td>
+                    <td>0.28</td>
+                </tr>
+
+                <tr>
+                    <td>Samosa</td>
+                    <td>12</td>
+                    <td>0.17</td>
+                </tr>
+                <tr>
+                    <td>Chips</td>
+                    <td>10</td>
+                    <td>0.14</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
