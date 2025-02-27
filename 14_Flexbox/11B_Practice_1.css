@@ -1,0 +1,21 @@
+#container {
+    border: 2px solid green;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#container div {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    font: bold;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(94, 101, 108);
+}

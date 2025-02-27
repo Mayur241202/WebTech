@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image</title>
+    <link rel="stylesheet" href="5B_Background_Image.css">
+</head>
+<body>
+    <h1>Background Image</h1>
+
+    <p>Sets the background-image for an element. Also to set the image in the element we use background-size and it has three values <b>contain</b>, <b>cover</b> and <b>auto</b> which is default value also.</p>
+
+    <hr>
+
+    <h1>Syntax</h1>
+
+    <pre>
+        <code>
+            div {
+                background-image: url("5A_img_1.jpg");
+                background-size: contain <b>or</b> cover <b>or</b> auto;
+            }
+        </code>
+    </pre>
+
+    <hr>
+
+    <h1>Example 1</h1>
+
+    <div id="div1">Auto</div>
+
+    <p>Here we use and background-size: auto; Auto will stretch an image.</p>
+
+    <hr>
+
+    <h1>Example 2</h1>
+
+    <div id="div2">Contain</div>
+
+    <p>Here we use and background-size: contain; contain will repeat the same image to fill the element.</p>
+
+    <hr>
+
+    <h1>Example 3</h1>
+
+    <div id="div3">Cover</div>
+
+    <p>Here we use and background-size: cover; cover will crop the image to fill the element.</p>
+</body>
+</html>

@@ -1,0 +1,157 @@
+#container1 {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; /* row */
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#container2 {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; /* row */
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+#container3 {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; /* row */
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#container4 {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; /* row */
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#container5 {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; /* row */
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+#container6 {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; /* row */
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+}
+
+#div1 {
+    background-color: violet;
+}
+
+#div2 {
+    background-color: indigo;
+}
+
+#div3 {
+    background-color: blue;
+}
+
+#div4 {
+    background-color: green;
+}
+
+#div5 {
+    background-color: yellow;
+}
+
+#div6 {
+    background-color: orange;
+}
+
+#div7 {
+    background-color: red;
+}
+
+#container1 div {
+    height: 100px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#container2 div {
+    height: 100px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#container3 div {
+    height: 100px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#container4 div {
+    height: 100px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#container5 div {
+    height: 100px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#container6 div {
+    height: 100px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

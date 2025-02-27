@@ -1,0 +1,35 @@
+#div1 {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background-color: #7a874a;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-image: url("5A_img_1.jpg");
+    background-size: auto;
+    color: white;
+}
+
+#div2 {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background-color: #7a874a;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-image: url("5A_img_1.jpg");
+    background-size: contain;
+    color: white;
+}
+
+#div3 {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background-color: #7a874a;
+    border: 2px solid black;
+    margin: 10px auto;
+    background-image: url("5A_img_1.jpg");
+    background-size: cover;
+    color: white;
+}

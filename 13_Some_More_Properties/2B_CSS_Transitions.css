@@ -1,0 +1,25 @@
+div {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    transition: 2s;
+}
+
+div:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
+#div1 {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    transition: margin-top 1s ease-in 2s;
+}
+
+#div1:hover {
+    background-color: red;
+    margin-top: 200px;
+    border-radius: 50%;
+}
